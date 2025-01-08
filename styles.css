@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: monospace;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+}
+
+
+.about {
+    text-align: center;
+    font-size: large;
+}
+
+.about p {
+    max-width: 720px;
+    padding: 10px;
+}
+
+.about svg {
+    fill: white;
+    height: 1.5rem;
+    margin-right: 0.5em;
+}
+
+.button {
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid white;
+    font-size: 1.75rem;
+}
+
+.button svg {
+    fill: white;
+    height: 1.75rem;
+    margin-right: 0.25em; 
+}
+
+.button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    border: 0.5rem solid transparent;
+    font-weight: normal;
+}
+
+.button a:hover, .button:hover {
+    background-color: white;
+    color: black;
+}
+
+.button:hover svg {
+    fill: black;
+}
+
