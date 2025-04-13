@@ -1,5 +1,6 @@
 # About
-I made this collection of projects following freeCodeCamp's [Certified Full Stack Developer](https://www.freecodecamp.org/learn/full-stack-developer/) curriculum. 
+
+I made this collection of projects following freeCodeCamp's [Certified Full Stack Developer](https://www.freecodecamp.org/learn/full-stack-developer/) curriculum.
 
 <div align="center">
 
