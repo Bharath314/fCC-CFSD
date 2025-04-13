@@ -1,10 +1,10 @@
 @import url(../styles.css);
 
 .about {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .about svg {
-    height: 2rem;
+  height: 2rem;
 }
