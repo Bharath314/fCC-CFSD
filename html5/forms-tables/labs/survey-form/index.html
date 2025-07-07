@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dockVind Survey Form</title>
+  </head>
+  <body>
+    <div class="form">
+      <header>
+        <h1 id="title">dockVind Survey Form</h1>
+        <p id="description">Your feedback is valuable to us</p>
+      </header>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label">
+            <p>Name</p>
+            <input type="text" id="name" placeholder="John Appleseed"required>
+          </label>
+          <label id="email-label">
+            <p>Email</p>
+            <input type="email" id="email" placeholder="jappleseed@dockMail.com"required>
+          </label>
+          <label id="number-label">
+            <p>Age (Optional)</p>
+            <input type="number" id="number" min="13" max="120" placeholder="You must be at least 13 years old">
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>
+            <p>How did you hear about us? </p>
+            <select id="dropdown">
+              <option disabled selected value> Select an option </option>
+              <option value="blog">dockVind blog</option>
+              <option value="linkedin">LinkedIn</option>
+              <option value="news">News</option>
+              <option value="WOM">Word of mouth</option>
+            </select>
+          </label>
+          <label>
+            <p>Would you recommed dockVind to a colleague?</p>
+            <input type="radio" name="recommend" value="definitely">Definitely
+            <input type="radio" name="recommend" value="maybe">Maybe
+            <input type="radio" name="recommend" value="no">No
+          </label>
+          <label>
+            <p>What would you like to see improved in dockVind?</p>
+            <div><input type="checkbox" name="improvements" value="Consultancy">Consultancy</div>
+            <div><input type="checkbox" name="improvements" value="Speed"> Speed in delivering solutions</div>
+            <div><input type="checkbox" name="improvements" value="Service">Customer service</div>
+            <div><input type="checkbox" name="improvements" value="Coffee"> The coffee in the lobby</div>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>
+            <p>Anything you would like to add?</p>
+            <textarea placeholder="Your thoughts are extremely valuable to us"></textarea>
+          </label>
+          <div>
+            <button type="submit" id="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <div>
+      <footer>Photo by <a href="https://unsplash.com/@rgaleriacom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ricardo Gomez Angel</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></footer>
+    </div>
+  </body>
+</html>
