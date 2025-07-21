@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Checkout Page</title>
+</head>
+
+<body>
+  <h1>Checkout</h1>
+  <section>
+    <h2>Your Cart</h2>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="Representation of the Vind.AI Package" />
+    <p>Vind.AI Pro - 6 Months Subscription</p>
+    <p>$499.99</p>
+  </section>
+  <section>
+    <h2>Payment Information</h2>
+    <form action="/submit-payment" method="POST">
+      <div>
+        <label for="card-name">Cardholder Name</label>
+        <input type="text" id="card-name" name="card-name" required="" aria-required="true">
+      </div>
+      <div>
+        <label for="card-number">Card Number</label>
+        <input type="number" id="card-number" name="card-number" required="" aria-required="true">
+      </div>
+      <div>
+        <label for="expiry-date">Expiry Date</label>
+        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required="" aria-required="true">
+      </div>
+      <div>
+        <label for="cvv">CVV</label>
+        <input type="number" id="cvv" name="cvv" required="" aria-required="true" aria-label="Card Verification Value">
+      </div>
+      <input type="submit" value="Place Order">
+    </form>
+  </section>
+</body>
+
+</html>
