@@ -25,6 +25,15 @@ body {
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease;
   font-size: 1rem
+}
+
+#generate-otp-button:hover {
+  background: black;
+}
+
+#generate-otp-button:disabled {
+  background: lightgray;
+  cursor: not-allowed;
 }
