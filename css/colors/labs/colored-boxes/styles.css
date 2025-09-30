@@ -1,0 +1,45 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.color-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.color-box {
+  width: 150px;
+  height: 150px;
+  border-radius: 1em;
+}
+
+.color1 {
+  background-color: #f231ff;
+  box-shadow: #f231ff 0px 0px 1em;
+}
+
+.color2 {
+  background-color: rgb(255, 153, 0);
+  box-shadow: rgb(255, 153, 0) 0px 0px 1em;
+}
+
+.color3 {
+  background-color: blue;
+  box-shadow: blue 0px 0px 1em;
+}
+
+.color4 {
+  background-color: hsl(120, 100%, 50%);
+  box-shadow: hsl(120, 100%, 50%) 0px 0px 1em;
+}
+
+.color5 {
+  background-color: yellow;
+  box-shadow: yellow 0px 0px 1em;
+}
